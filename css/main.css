@@ -512,6 +512,20 @@ footer {
   margin-bottom: 2rem;
 }
 
+.resume a {
+  padding: 10px 20px;
+  border: 2px solid #ffff;
+  font-weight: bold;
+  font-size: larger;
+  color: #ff652f;
+}
+
+.resume a:hover {
+  background-color: #ff652f;
+  color: #ffff;
+  border: 2px solid #ff652f;
+}
+
 body {
   background-color: #272727;
   color: #ffff;

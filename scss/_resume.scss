@@ -16,4 +16,16 @@
         font-size: 3rem;
         margin-bottom: 2rem;
     }
+    a{
+        padding: 10px 20px;
+        border: 2px solid #ffff;
+        font-weight: bold;
+        font-size: larger;
+        color:$secondary-color;
+        &:hover{
+            background-color:$secondary-color;
+            color: #ffff;
+            border: 2px solid $secondary-color;
+        }
+    }
 }
