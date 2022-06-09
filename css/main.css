@@ -514,15 +514,16 @@ footer {
 
 .resume a {
   padding: 10px 20px;
-  border: 2px solid #ffff;
+  border: 2px solid #ff652f;
   font-weight: bold;
   font-size: larger;
-  color: #ff652f;
+  background-color: #ff652f;
+  color: #ffff;
 }
 
 .resume a:hover {
-  background-color: #ff652f;
-  color: #ffff;
+  border: 2px solid #ffff;
+  background-color: transparent;
   border: 2px solid #ff652f;
 }
 

@@ -18,14 +18,18 @@
     }
     a{
         padding: 10px 20px;
-        border: 2px solid #ffff;
+        
+        border: 2px solid $secondary-color;
         font-weight: bold;
         font-size: larger;
-        color:$secondary-color;
+        background-color:$secondary-color;
+        color: #ffff;
+       
         &:hover{
-            background-color:$secondary-color;
-            color: #ffff;
+            border: 2px solid #ffff;
+            background-color: transparent;
             border: 2px solid $secondary-color;
+            
         }
     }
 }
