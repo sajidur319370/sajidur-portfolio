@@ -44,6 +44,7 @@ export const socials: Social[] = [
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/sajidur-rahman-sajidur319370/",
   },
+  { name: "LeetCode", url: "https://leetcode.com/u/sajidur319370/" },
 ];
 
 // ----- About me -----

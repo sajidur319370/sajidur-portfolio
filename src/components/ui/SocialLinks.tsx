@@ -1,19 +1,21 @@
 import type { IconType } from "react-icons";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiLink, FiMail } from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
 import { personal, socials } from "@/data/portfolio";
 
 // Which icon to show for each social "name" in the data file
 const icons: Record<string, IconType> = {
   GitHub: FaGithub,
   LinkedIn: FaLinkedin,
+  LeetCode: SiLeetcode,
 };
 
 type SocialLinksProps = {
   className?: string; // extra Tailwind classes from the parent
 };
 
-// Round icon links: GitHub, LinkedIn (when it has a url) and Email.
+// Round icon links: GitHub, LinkedIn, LeetCode (when they have a url) and Email.
 // Reused in the Hero, Contact and Footer.
 export default function SocialLinks({ className = "" }: SocialLinksProps) {
   // Keep only links that have a url ("" = hidden)
