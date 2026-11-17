@@ -24,7 +24,7 @@ export const personal: Personal = {
   email: "sajidurrahmansahib@gmail.com",
   phone: "+880 1521-319370", // Shown in About and Contact. Set to "" to hide it
   photo: "/profile.png", // My photo in public/profile.png (Hero + social preview)
-  resumeUrl: "", // Empty = the Resume buttons stay hidden. Later: "/resume.pdf"
+  resumeUrl: "/Sajidur_Rahman_Resume.pdf", // PDF in public/. "" = hide the Resume buttons
   siteUrl: "https://sajidur-portfolio.vercel.app", // My live link (SEO: canonical base URL)
 };
 
