@@ -17,7 +17,9 @@ export default function Projects() {
         <SectionHeading
           number="03"
           title="Projects"
-          subtitle="Things I've built (and what I'm building now)"
+          subtitle={
+            projects.length > 0 ? "Things I've built" : "What I'm building now"
+          }
         />
       </FadeIn>
 
