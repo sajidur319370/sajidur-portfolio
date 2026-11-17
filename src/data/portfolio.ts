@@ -39,7 +39,7 @@ export const highlights: Highlight[] = [
 // ----- Social links -----
 // An empty url ("") is hidden on the site.
 export const socials: Social[] = [
-  { name: "GitHub", url: "https://github.com/sajidur70" },
+  { name: "GitHub", url: "https://github.com/sajidur319370" },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/sajidur-rahman-sajidur319370/",
@@ -129,41 +129,44 @@ export const skills: SkillGroup[] = [
 ];
 
 // ----- Projects -----
-// Empty for now → the Projects section shows "Currently building".
-// When a project is ready, add an object like this (copy, then fill in):
-// {
-//   title: "ShopStock",
-//   description: "One or two lines: the problem it solves and the main features.",
-//   image: "/projects/shopstock.png", // screenshot in public/projects/ ("" = no image)
-//   tech: ["TypeScript", "React", "Express", "MongoDB"],
-//   liveUrl: "https://shopstock.vercel.app", // "" = hide the button
-//   githubUrl: "https://github.com/sajidur70/shopstock",
-//   featured: true, // shows a "Featured" badge
-// },
-export const projects: Project[] = [];
-
-// ----- Projects I'm building now -----
-// Shown only while `projects` is empty. Remove one when it moves to `projects`.
-export const upcomingProjects: UpcomingProject[] = [
+// My finished projects, shown as cards. To add one, copy an object and fill it in.
+// image: screenshot in public/projects/ ("" = no image)
+// liveUrl / githubUrl: "" = hide that button
+// featured: true shows a "Featured" badge
+export const projects: Project[] = [
   {
     title: "ShopStock",
     description:
       "Multi-branch inventory and point-of-sale system for a retail chain. Built for correctness under concurrency: stock never goes negative, retried sales are never counted twice, and every stock change is audited.",
+    image: "/projects/shopstock.png",
     tech: ["TypeScript", "React", "Express", "MongoDB"],
-    status: "In progress",
+    liveUrl: "https://shopstock-sajidur.onrender.com",
+    githubUrl: "https://github.com/sajidur319370/shopstock",
+    featured: true,
   },
   {
     title: "SeatBook",
     description:
       "Event ticketing with live seat selection: see other people's picks in real time, seats held for 10 minutes at checkout, and signed QR tickets that scan only once.",
+    image: "/projects/seatbook.png",
     tech: ["TypeScript", "React", "Express", "MongoDB", "Socket.io"],
-    status: "Planned",
+    liveUrl: "https://seatbook-sajidur.onrender.com",
+    githubUrl: "https://github.com/sajidur319370/seatbook",
+    featured: false,
   },
   {
     title: "TeamBoard",
     description:
       "Multi-tenant project management SaaS, a lighter Jira/Trello: workspaces with roles, sprints and real-time Kanban boards with drag & drop.",
+    image: "/projects/teamboard.png",
     tech: ["TypeScript", "React", "Express", "MongoDB", "Socket.io"],
-    status: "Planned",
+    liveUrl: "https://teamboard-yaur.onrender.com",
+    githubUrl: "https://github.com/sajidur319370/teamboard",
+    featured: false,
   },
 ];
+
+// ----- Projects I'm building now -----
+// Shown only while `projects` is empty. All three are finished, so this is empty.
+// Format: { title, description, tech: [...], status: "In progress" | "Planned" }
+export const upcomingProjects: UpcomingProject[] = [];

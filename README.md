@@ -42,7 +42,7 @@ It is a single-page site. **All content lives in one typed data file** (`src/dat
 **Requirements:** Node.js 20.9 or newer.
 
 ```bash
-git clone https://github.com/sajidur70/sajidur-portfolio.git
+git clone https://github.com/sajidur319370/sajidur-portfolio.git
 cd sajidur-portfolio
 npm install
 npm run dev
@@ -65,4 +65,4 @@ NEXT_PUBLIC_WEB3FORMS_KEY=your-web3forms-access-key
 
 - **Email:** [sajidurrahmansahib@gmail.com](mailto:sajidurrahmansahib@gmail.com)
 - **LinkedIn:** [sajidur-rahman-sajidur319370](https://www.linkedin.com/in/sajidur-rahman-sajidur319370/)
-- **GitHub:** [@sajidur70](https://github.com/sajidur70)
+- **GitHub:** [@sajidur319370](https://github.com/sajidur319370)
