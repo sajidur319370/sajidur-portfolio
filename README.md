@@ -8,7 +8,21 @@ My personal portfolio website, built with **Next.js 16, React 19, TypeScript, Ta
 
 ## About
 
-I'm a full-stack developer (MERN) with a B.Sc. in Computer Science & Engineering from East West University. This site introduces me, my skills and the projects I'm building, and lets recruiters contact me directly.
+I'm a full-stack developer (MERN) with a B.Sc. in Computer Science & Engineering from East West University. This site introduces me, my skills and the projects I've built, and lets recruiters contact me directly.
+
+📄 **Resume:** [Sajidur_Rahman_Resume.pdf](https://sajidur-portfolio.vercel.app/Sajidur_Rahman_Resume.pdf)
+
+## My Projects
+
+Full-stack MERN + TypeScript projects featured on the site:
+
+| Project | What it is | Live | Code |
+|---|---|---|---|
+| **ShopStock** | Multi-branch inventory and point-of-sale system, built for correctness under concurrency | [Live demo](https://shopstock-sajidur.onrender.com) | [GitHub](https://github.com/sajidur319370/shopstock) |
+| **SeatBook** | Event ticketing with live seat selection, timed seat holds and single-use QR tickets | [Live demo](https://seatbook-sajidur.onrender.com) | [GitHub](https://github.com/sajidur319370/seatbook) |
+| **TeamBoard** | Multi-tenant project management SaaS with roles, sprints and real-time Kanban boards | [Live demo](https://teamboard-yaur.onrender.com) | [GitHub](https://github.com/sajidur319370/teamboard) |
+
+> The demos run on Render's free plan, so the first load can take up to a minute while the server wakes up.
 
 It is a single-page site. **All content lives in one typed data file** (`src/data/portfolio.ts`), so updating my bio, skills or projects never means touching component code.
 
@@ -66,3 +80,4 @@ NEXT_PUBLIC_WEB3FORMS_KEY=your-web3forms-access-key
 - **Email:** [sajidurrahmansahib@gmail.com](mailto:sajidurrahmansahib@gmail.com)
 - **LinkedIn:** [sajidur-rahman-sajidur319370](https://www.linkedin.com/in/sajidur-rahman-sajidur319370/)
 - **GitHub:** [@sajidur319370](https://github.com/sajidur319370)
+- **LeetCode:** [sajidur319370](https://leetcode.com/u/sajidur319370/) (500+ problems solved)
